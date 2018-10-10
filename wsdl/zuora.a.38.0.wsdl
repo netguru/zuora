@@ -19,9 +19,6 @@
 				</sequence>
 			</complexType>
 
-
-
-
 			<complexType name="Account">
 				<complexContent>
 					<extension base="ons:zObject">
@@ -36,8 +33,8 @@
 							<element minOccurs="0" name="BillCycleDay" type="int" />
 							<element minOccurs="0" name="BillToId" nillable="true" type="zns:ID" />
 							<element minOccurs="0" name="CommunicationProfileId" nillable="true" type="zns:ID" />
-              <element minOccurs="0" name="CreatedById" nillable="true" type="zns:ID"  />
-              <element minOccurs="0" name="CreatedDate" nillable="true" type="dateTime" />
+							<element minOccurs="0" name="CreatedById" nillable="true" type="zns:ID"  />
+							<element minOccurs="0" name="CreatedDate" nillable="true" type="dateTime" />
 							<element minOccurs="0" name="CrmId" nillable="true" type="string" />
 							<element minOccurs="0" name="Currency" nillable="true" type="string" />
 							<element minOccurs="0" name="CustomerServiceRepName" nillable="true" type="string" />
@@ -55,10 +52,10 @@
 							<element minOccurs="0" name="SalesRepName" nillable="true" type="string" />
 							<element minOccurs="0" name="SoldToId" nillable="true" type="zns:ID" />
 							<element minOccurs="0" name="Status" nillable="true" type="string" />
-              <element minOccurs="0" name="University__c" nillable="true" type="string" />
-              <element minOccurs="0" name="PaymentType__c" nillable="true" type="string" />
-              <element minOccurs="0" name="UpdatedById" nillable="true" type="zns:ID"  />
-              <element minOccurs="0" name="UpdatedDate" nillable="true" type="dateTime" />
+							<element minOccurs="0" name="University__c" nillable="true" type="string" />
+							<element minOccurs="0" name="PaymentType__c" nillable="true" type="string" />
+							<element minOccurs="0" name="UpdatedById" nillable="true" type="zns:ID"  />
+							<element minOccurs="0" name="UpdatedDate" nillable="true" type="dateTime" />
 						</sequence>
 					</extension>
 				</complexContent>
